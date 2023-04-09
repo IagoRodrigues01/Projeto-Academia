@@ -122,6 +122,7 @@ body {
   vertical-align: center; 
   box-sizing: border-box; 
   padding: 10px;
+ 
 }
 
 .box img {
@@ -129,4 +130,26 @@ body {
   height: auto; 
   display: block; 
   margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
 }
