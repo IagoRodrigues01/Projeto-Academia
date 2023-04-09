@@ -98,7 +98,7 @@ tr:hover {
     background-color: lightgray;
 }
 body {
-  background-image: linear-gradient(to bottom, red, rgb(230, 115, 115));
+  background-image: linear-gradient(to bottom, #A52A2A, #FA8072 , #E9967A);
 }
 
 @media screen and (min-width: 800px) {
@@ -111,7 +111,22 @@ body {
 
 /* ------------------------------------------*/
 
-  
-  
-  
-  
+.container {
+  width: 100%; 
+  text-align: center;
+}
+
+.box {
+  display:inline-block;
+  width: calc(100% /4); 
+  vertical-align: center; 
+ / box-sizing: border-box; 
+  padding: 10px;
+}
+
+.box img {
+  width: 100%;
+  height: auto; 
+  display: block; da imagem */
+  margin-bottom: 10px;
+}
