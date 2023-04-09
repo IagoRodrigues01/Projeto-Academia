@@ -131,25 +131,32 @@ body {
   display: block; 
   margin-bottom: 10px;
 }
+@media screen and (max-width: 768px) {
+  .box {
+    width: calc(100% / 2); /* define a largura das divs */
+  }
+}
+
+/* ajuste para telas ainda menores */
+@media screen and (max-width: 480px) {
+  .box {
+    width: 100%; /* define a largura das divs */
+  }
+}
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+ /*--------------------------------------------------*/
 
 footer{
   background-color: black;
   color: white;
   text-align: center;
+}
+
+footer >a {
+  color: white;
+  text-decoration: underline;
 }
