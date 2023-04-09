@@ -120,13 +120,13 @@ body {
   display:inline-block;
   width: calc(100% /4); 
   vertical-align: center; 
- / box-sizing: border-box; 
+  box-sizing: border-box; 
   padding: 10px;
 }
 
 .box img {
   width: 100%;
   height: auto; 
-  display: block; da imagem */
+  display: block; 
   margin-bottom: 10px;
 }
