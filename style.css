@@ -120,7 +120,7 @@ body {
 }
 
 .box {
-  flex: 1 0 calc(25% - 20px);
+  flex: 0 1 calc(25% - 20px);
   margin: 0 80px;
   padding: 1px;
   box-sizing: border-box;
