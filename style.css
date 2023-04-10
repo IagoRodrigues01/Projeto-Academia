@@ -190,17 +190,14 @@ a{
   text-decoration: none;
 }
 
-footer{
+footer {
   background-color: black;
   color: white;
   text-align: center;
-}
-
-footer > a {
+  }
+  
+  footer > p > a {
   color: white;
-  text-decoration: underline;
-}
-
-
-
+  text-decoration: none;
+  }
 
