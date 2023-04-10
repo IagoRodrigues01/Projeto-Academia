@@ -65,8 +65,9 @@ nav {
     color: white;
     background-color: red;
     border-radius: 20px;
-    
+    transition: 0.8s; 
   } 
+
   table {
     width: 100%;
     max-width: 80%;
@@ -75,6 +76,7 @@ nav {
     padding: 15px;
     box-sizing: border-box;
     overflow-x: auto;
+   
   }
   
   @media (max-width: 768px) {
@@ -133,6 +135,7 @@ body {
   height: auto;
   display: block;
   margin-bottom: 10px;
+  border-radius: 20px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -177,6 +180,7 @@ body {
 .nomes:hover{
   background-color: red;
   color: white;
+  transition: 0.8s;
  
  
 }
