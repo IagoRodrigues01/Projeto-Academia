@@ -110,39 +110,30 @@ body {
 
 
 /* ------------------------------------------*/
-
 .container {
-  width: 100%; 
-  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0;
 }
 
 .box {
-  display:inline-block;
-  width: calc(100% /4); 
-  vertical-align: center; 
-  box-sizing: border-box; 
-  padding: 10px;
- 
+  flex: 1 0 calc(25% - 20px);
+  margin: 0 10px;
+  padding: 5px;
+  box-sizing: border-box;
 }
 
 .box img {
   width: 100%;
-  height: auto; 
-  display: block; 
+  height: auto;
+  display: block;
   margin-bottom: 10px;
 }
-@media screen and (max-width: 768px) {
-  .box {
-    width: calc(100% / 2); /* define a largura das divs */
-  }
-}
 
-/* ajuste para telas ainda menores */
-@media screen and (max-width: 480px) {
-  .box {
-    width: 100%; /* define a largura das divs */
-  }
-}
+
 
 
  /*--------------------------------------------------*/
